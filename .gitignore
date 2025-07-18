@@ -1,0 +1,32 @@
+# Ignora diretórios de build
+build/
+cmake-build-debug/
+
+# Ignora arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+rules.ninja
+
+# Ignora binários e objetos
+*.o
+*.obj
+*.exe
+*.out
+server
+
+# Ignora logs e arquivos temporários
+Testing/
+*.log
+*.tmp
+
+# Ignora arquivos do CLion
+.idea/
+*.iml
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
+
